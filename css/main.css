@@ -1,0 +1,250 @@
+
+body{
+    margin: 0px;
+    font-family: 'Roboto', sans-serif ;
+}
+
+.hero{
+
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.heroLeft{
+    background-color: #FFFFFF;
+    width: 40%;
+    height: 100%;
+    float: left;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.img1{
+    width: 85%;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+
+.logo{
+    margin-top: 20px;
+    margin-left: 40px;
+    width: 50px;
+}
+
+.heroRight{
+    /* float: left; */
+    background-color: #03071E;
+    width: 60%;
+    height: 100%;
+    color: white;
+    box-sizing: border-box;
+    
+}
+.menu{
+    margin: 40px 80px;
+    text-align: right;
+}
+.textHero h3{
+    font-size: 72px;
+    margin: 20px;
+    padding: 0px 20px;
+}
+
+.textHero h4 {
+    font-size: 48px;
+    margin: 20px;
+    padding: 0px 20px;
+}
+.textHero{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%);
+}
+
+
+.heroRight a {
+    color: white;
+    text-decoration: none;
+    margin-right: 40px;
+}
+
+.about{
+    text-align: center;
+    max-width: 900px;
+    margin: 0px auto ;
+    padding: 0px 30px;  
+}
+.about p {
+    margin-top: 30px;
+}
+
+
+
+.title{
+    text-align: center;
+    margin-top: 140px;
+    font-size: 48px;
+    font-weight:700;   
+}
+
+.works .title{
+    background-color: #03071E;
+    color: white;
+    padding-top: 20px;
+}
+
+.works .workContent{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.works {
+    background-color: #03071E;
+    color: white;
+}
+
+.works .workContent .card {
+    width: 40% ;
+    height: 80%;
+    border-radius: 5px;
+    border: 2px;
+    border-style: outset;
+    border-color: white;
+    margin: 40px 0px;
+}
+
+.box img{
+    width: 100%;
+}
+
+.contacts .naslov{
+    text-align: center;
+    max-width: 900px;
+    margin: 0px auto ;
+    padding: 0px 30px; 
+    
+}
+.contacts .naslov p {
+    margin-bottom: 40px;
+}
+
+.contacts .contactContent {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.contacts .contactContent .card{
+    width: 40%;
+    height: 400px;
+   
+}
+
+.contacts .contactContent .left {
+    margin: 10px 0px;
+}
+
+.contacts .contactContent .left .row {
+    display: flex;
+    height: 65px;
+    align-items: center;
+}
+
+.contacts .contactContent .left .row .info{
+    margin-left: 20px;
+}
+
+.contacts .contactContent .row i {
+    font-size: 48px;
+}
+
+.contacts .contactContent .right .row {
+    margin: 20px 20px;
+    
+}
+
+.contacts .contactContent .right .row .info input{
+    width: 100%;
+    height: 45px;
+    border: 0px;
+    background-color: #F5F5F5; 
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+.contacts .contactContent .right .row .info textarea{
+
+    width: 100%;
+    height: 60px;
+    border: 0px;
+    background-color: #F5F5F5; 
+    margin-top: 5px;
+    font-size: 14px;
+
+}
+
+.contacts .contactContent .right .row .button input {
+
+    border: 0px;
+    width: 160px;
+    height: 45px;
+    background-color: #9D0208;
+    color: white;
+    border-radius: 10px;
+
+}
+
+.header{
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    background-color: #03071E;
+    color: white;
+}
+
+
+
+
+ 
+
+
+
+
+@media screen and (max-width: 480px) {
+    .works .workContent .card{
+        width: 80%;
+    }
+    .works .workContent{
+        flex-direction: column;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+  }
+
+  @media screen and (max-width: 915px) {
+
+    .menu a {
+        font-size: 12px;
+        margin-right: 20px;
+    }
+
+    .textHero h3{
+        font-size: 48px;
+    }
+    
+    .textHero h4 {
+        font-size: 24px;
+    }
+    
+  }
+
+
+
+
