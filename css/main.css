@@ -218,7 +218,7 @@ body{
 }
 
 .contacts .contactContent .right .row {
-    margin: 20px 20px;
+    margin: 20px 0px;
     
 }
 
@@ -284,6 +284,9 @@ body{
     }
     .contacts .contactContent{
         flex-direction: column;
+    }
+    .contacts .contactContent .right .row .button input{
+        width: 100%;
     }
 
   }
