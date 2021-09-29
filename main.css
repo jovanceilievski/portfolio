@@ -242,7 +242,7 @@ body{
 
 }
 
-.contacts .contactContent .right .row .kopche input {
+.contacts .contactContent .right .row .kopche .kopche2 {
 
     border: 0px;
     width: 160px;
@@ -286,7 +286,7 @@ body{
         flex-direction: column;
         align-items: center;
     }
-    .contacts .contactContent .right .row .kopche input{
+    .contacts .contactContent .right .row .kopche .kopche2{
         width: 100%;
     }
 
