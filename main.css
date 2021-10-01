@@ -57,12 +57,23 @@ body{
 
 .hero1{
     height: 100vh;
+    position: relative;
     
+}
+
+.hero1 .hero2 .img2 {
+
+    display: none;
+    position: absolute;
+    width: 90%;
+    bottom: 0px;
+    left: 0px;
+
 }
 
 
 .hero2{
-    height: 100vh;
+    height: 100%;
     display: flex;
     justify-content: flex-start;
 
@@ -307,6 +318,20 @@ body{
     .works .workContent{
         flex-direction: column;
     }
+
+    .hero1 .hero2 .img2{
+        display: block
+    }
+
+    .hero1 .hero2 .heroLeft .img1{
+        display: none;
+    }
+
+    .hero1 .hero2 .heroRight .textHero{
+        z-index: 999;
+    }
+
+
 
   }
   @media screen and (max-width: 700px) {
