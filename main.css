@@ -4,41 +4,56 @@ body{
     font-family: 'Roboto', sans-serif ;
 }
 
-nav{
-    display: block;
-}
 
 .header {
     position: fixed;
     width: 100%;
     background: none;
     z-index: 999;
+}
+
+.header .max-with {
     display: flex;
     justify-content: space-between;
     align-items: center;
     transition: all .3s ease;
+    padding: 30px 70px;
+}
+
+.header.sticky .max-with {
+    padding: 15px 70px;
 }
 
 .header.sticky{
-    background: #03071E;
+    background: #9D0208;
 }
-.header.sticky .logo1 .logo2{
-
-    max-width: 35px;
-
-}
-
 
 .header .logo1 .logo2{
-    max-width: 45px;
-    margin: 20px 20px;
+    max-width: 35px;
+    
 }
 
 .header .menu1 a {
     color: white;
     text-decoration: none;
-    margin-right: 40px;
+    margin-left: 40px;
+    font-size: 18px;
+    font-weight: 700;
 } 
+.header .menu1 a:hover{
+    color: #9D0208;
+    transition: all .3s ease;
+}
+.header.sticky a:hover{
+    color: white;
+}
+
+.header .max-with .hamburger {
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+    display: none;
+}
 
 .hero1{
     height: 100vh;
@@ -214,8 +229,9 @@ nav{
    
 }
 
-.contacts .contactContent .left {
-    margin: 10px 0px;
+.contacts .contactContent .left ,
+.contacts .contactContent .right {
+    margin: 40px 0px;
 }
 
 .contacts .contactContent .left .row {
@@ -305,16 +321,13 @@ nav{
         width: 100%;
     }
 
+   
   }
 
 
 
   @media screen and (max-width: 915px) {
 
-    .header .menu1 a {
-        font-size: 16px;
-        margin-right: 20px;
-    }
 
     .hero1 .hero2 .heroRight .textHero h3 {
         font-size: 48px;
@@ -323,15 +336,56 @@ nav{
     .hero1 .hero2 .heroRight .textHero h4  {
         font-size: 24px;
     }
+
+    .header .max-with {
+
+        padding: 20px 40px;
+    }
+    .header.sticky .max-with{
+        padding: 10px 40px;
+    }
+
+    .header .max-with .hamburger {
+        display: block;
+        z-index: 999;
+    }
+
+    .header .max-with .hamburger i.active:before{
+        content: "\f00d";
+    }
+
+    .header .menu1{
+        position: fixed;
+        height: 100vh;
+        width: 100%;
+        left: -100%;
+        top: 0px;
+        background: #03071E;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        transition: all 0.3s ease;
+    }
+
+    .header .menu1.active{
+
+        left: 0px;
+
+    }
+
+    .header .menu1 .menu2{
+        font-size: 24px;
+        margin: 15px 0px;
+
+    }
+
     
   }
 
   @media screen and (max-width: 700px) {
 
-    .header .menu1 a {
-        font-size: 10px;
-        margin-right: 10px;
-    }
 
     .hero1 .hero2 .heroRight .textHero h3 {
         font-size: 40px;

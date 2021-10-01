@@ -11,4 +11,11 @@ $(document).ready(function(){
         }
     })
 
+    $('.hamburger').click(function(){
+
+        $('.header .menu1').toggleClass('active');
+        $('.hamburger i').toggleClass('active');
+
+    });
+
 });
