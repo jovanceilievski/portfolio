@@ -279,7 +279,7 @@ body{
     background-color: #9D0208;
     color: white;
     border-radius: 10px;
-    -webkit-appearance: none;
+    /* -webkit-appearance: none; */
     /* background: transparent; */
     /* smeni */
 
