@@ -56,21 +56,8 @@ body{
 }
 
 .hero1{
-    height: 100vh;
-    position: relative;
-    
+    height: 100vh;  
 }
-
-.hero1 .hero2 .img2 {
-
-    display: none;
-    position: absolute;
-    width: 90%;
-    bottom: 0px;
-    left: 0px;
-
-}
-
 
 .hero2{
     height: 100%;
@@ -292,6 +279,9 @@ body{
     background-color: #9D0208;
     color: white;
     border-radius: 10px;
+    -webkit-appearance: none;
+    background: transparent;
+    /* smeni */
 
 }
 
@@ -319,7 +309,7 @@ body{
         flex-direction: column;
     }
 
-    .hero1 .hero2 .img2{
+    /* .hero1 .hero2 .img2{
         display: block
     }
 
@@ -329,7 +319,7 @@ body{
 
     .hero1 .hero2 .heroRight .textHero{
         z-index: 999;
-    }
+    } */
 
 
 
