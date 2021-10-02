@@ -280,7 +280,7 @@ body{
     color: white;
     border-radius: 10px;
     -webkit-appearance: none;
-    background: transparent;
+    /* background: transparent; */
     /* smeni */
 
 }
