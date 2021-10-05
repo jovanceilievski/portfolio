@@ -65,10 +65,10 @@ body{
 
 .hero1 .hero2{
     height: 100%;
-    width: 50%;
+    width: 70%;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-end;
     flex-direction: column
 }
 
@@ -81,6 +81,51 @@ body{
 
 .hero1 .hero2 .image .img1{
     width: 100%;
+}
+
+.sodrzina  {
+    text-align: center;
+}
+
+.sodrzina .text {
+    margin: 20px;
+}
+
+.sodrzina .text .team {
+    padding: 0px 20px;
+}
+
+.sodrzina h3{
+    margin: 0px 0px;
+}
+
+.challenge {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.challenge h1 , 
+.challenge h2 {
+    margin: 10px 0px;
+}
+
+p {
+    text-align: center;
+    max-width: 900px;
+    margin: 0px auto ;
+    padding: 0px 30px;  
+}
+
+.slika img {
+    text-align: center;
+    width: 80%;
+}
+.slika{
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 
@@ -143,4 +188,12 @@ body{
     }
 
     
-  }
+}
+
+@media screen and (max-width: 700px){
+
+    .hero1 .hero2{
+        justify-content: space-evenly;
+    }
+
+}
