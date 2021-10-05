@@ -279,10 +279,6 @@ body{
     background-color: #9D0208;
     color: white;
     border-radius: 10px;
-    /* -webkit-appearance: none; */
-    /* background: transparent; */
-    /* smeni */
-
 }
 
 .footer{
@@ -308,18 +304,6 @@ body{
     .works .workContent{
         flex-direction: column;
     }
-
-    /* .hero1 .hero2 .img2{
-        display: block
-    }
-
-    .hero1 .hero2 .heroLeft .img1{
-        display: none;
-    }
-
-    .hero1 .hero2 .heroRight .textHero{
-        z-index: 999;
-    } */
 
 
 
