@@ -26,7 +26,8 @@ body{
 }
 
 .header.sticky{
-    background: #9D0208;
+    background: #9d0208;
+    opacity: 0.95;
 }
 
 .header .logo1 .logo2{
@@ -133,6 +134,7 @@ p {
 }
 
 
+
 .wireframes{
     position: relative;
     height: 100vh;
@@ -141,6 +143,11 @@ p {
     justify-content: center;
     flex-direction: column;
 }
+
+.wireframes .challenge h2{
+    margin-bottom: 20px;
+}
+
 .mySlides {
     height: 100%;
     display: none
@@ -156,15 +163,13 @@ p {
 
 .wireframes .slideshow-container {
     height: 80%;
-    
-    /* max-width: 80%; */
 }
 
 .prev{
-    left: 20px;
+    left: 250px;
 }
 .next{
-    right: 20px;
+    right: 250px;
 }
 .prev, .next {
     cursor: pointer;
@@ -173,78 +178,148 @@ p {
     z-index: 999;
     cursor: pointer;
     padding: 16px;
-    background-color: rgba(0,0,0,0.4) ;
+    /* background-color: rgba(0,0,0,0.4) ; */
     font-size: 18px;
     width: auto;
     user-select: none;
-    /* cursor: pointer;
-    position: absolute;
-    top: 50%;
-    width: auto;
-    padding: 16px;
-    margin-top: -22px;
-    color: white;
-    font-weight: bold;
-    font-size: 18px;
     transition: 0.6s ease;
-    border-radius: 0 3px 3px 0;
-    user-select: none;
-    background-color: rgba(0,0,0,0.4); */
+    border-radius: 5px;
+    z-index: 999;
 }  
 
-.next {
-    /* right: 0;
-    border-radius: 3px 0 0 3px; */
-}
+
 
 .prev:hover, .next:hover {
     background-color: rgba(0,0,0,0.8);
+    color: white;
 }
 
 
-.dot {
+
+.ui{
+    position: relative;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.ui .challenge h2{
+    margin-bottom: 20px;
+}
+
+.mySlidesUi {
+    height: 100%;
+    display: none
+
+}
+
+.ui .slideshow-container .mySlidesUi img{
+    
+    height: 100%;
+    
+}
+
+
+.ui .slideshow-container {
+    height: 80%;
+}
+
+.contacts .naslov{
     text-align: center;
-    cursor: pointer;
-    height: 15px;
-    width: 15px;
-    margin: 0 2px;
-    background-color: #bbb;
-    border-radius: 50%;
-    display: inline-block;
-    transition: background-color 0.6s ease;
-    z-index: 999;
+    max-width: 900px;
+    margin: 0px auto ;
+    padding: 0px 30px; 
+    margin-top: 120px;
+    
 }
-  
-.active, .dot:hover {
-    background-color: #717171;
+.contacts .naslov p {
+    margin-bottom: 40px;
 }
 
-.fade {
-    -webkit-animation-name: fade;
-    -webkit-animation-duration: 1.5s;
-    animation-name: fade;
-    animation-duration: 1.5s;
+.contacts .contactContent {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;;
+    justify-content: space-evenly;
 }
 
-@-webkit-keyframes fade {
-    from {opacity: .4} 
-    to {opacity: 1}
-}
-  
-@keyframes fade {
-    from {opacity: .4} 
-    to {opacity: 1}
+.contacts .contactContent .card{
+    width: 40%;
+    
+   
 }
 
-@media only screen and (max-width: 300px) {
-    .prev, .next {font-size: 11px}
+.contacts .contactContent .left ,
+.contacts .contactContent .right {
+    margin: 40px 0px;
 }
 
-@media only screen and (max-width: 300px) {
-    .prev, .next{font-size: 11px}
+.contacts .contactContent .left .row {
+    display: flex;
+    height: 65px;
+    align-items: center;
 }
 
-@media screen and (max-width: 915px) {
+.contacts .contactContent .left .row .info{
+    margin-left: 20px;
+}
+
+.contacts .contactContent .row i {
+    font-size: 48px;
+}
+
+.contacts .contactContent .right .row {
+    margin: 10px 0px;
+    
+}
+
+.contacts .contactContent .right .row .info input{
+    width: 100%;
+    height: 45px;
+    border: 0px;
+    background-color: #F5F5F5; 
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+.contacts .contactContent .right .row .info textarea{
+
+    width: 100%;
+    height: 60px;
+    border: 0px;
+    background-color: #F5F5F5; 
+    margin: 5px 0px;
+    font-size: 14px;
+
+}
+
+.contacts .contactContent .right .row .kopche .kopche2 {
+
+    border: 0px;
+    width: 160px;
+    height: 45px;
+    background-color: #9D0208;
+    color: white;
+    border-radius: 10px;
+}
+
+.footer{
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    background-color: #03071E;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* responsiv */
+
+@media screen and (max-width: 1000px) {
 
     .header .max-with {
 
@@ -298,6 +373,13 @@ p {
         width: 80%;
     }
 
+    .prev{
+        left: 20px;
+    }
+    .next{
+        right: 20px;
+    }
+
     
 }
 
@@ -305,6 +387,17 @@ p {
 
     .hero1 .hero2{
         justify-content: space-evenly;
+    }
+
+    .contacts .contactContent .card{
+        width: 80%;
+    }
+    .contacts .contactContent{
+        flex-direction: column;
+        align-items: center;
+    }
+    .contacts .contactContent .right .row .kopche .kopche2{
+        width: 100%;
     }
 
 }

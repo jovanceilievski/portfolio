@@ -26,6 +26,7 @@ body{
 
 .header.sticky{
     background: #9D0208;
+    opacity: 0.95;
 }
 
 .header .logo1 .logo2{
@@ -328,7 +329,7 @@ body{
 
 
 
-  @media screen and (max-width: 915px) {
+  @media screen and (max-width: 1000px) {
 
 
     .hero1 .hero2 .heroRight .textHero h3 {
