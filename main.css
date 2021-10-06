@@ -287,6 +287,9 @@ body{
     text-align: center;
     background-color: #03071E;
     color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 
