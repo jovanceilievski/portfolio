@@ -59,6 +59,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center
+    
 }
 
 .hero1 .hero2{
@@ -77,6 +78,9 @@ body{
     padding: 20px 0px;
 }
 
+.hero1 .hero2 .image{
+    width: 90%;
+}
 .hero1 .hero2 .image .img1{
     width: 100%;
 }

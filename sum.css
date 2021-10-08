@@ -72,6 +72,10 @@ body{
     flex-direction: column
 }
 
+.hero1 .hero2 .image{
+    width: 90%;
+}
+
 .hero1 .hero2 .naslov{
     text-align: center;
     font-size: 48px;
