@@ -3,7 +3,6 @@ body{
     font-family: 'Roboto', sans-serif ;
 }
 
-/* nav bar */
 
 .header {
     position: fixed;
@@ -55,9 +54,6 @@ body{
     cursor: pointer;
     display: none;
 }
-
-/* hero image */
-
 .hero1{
     height: 100vh;
     display: flex;
@@ -84,8 +80,6 @@ body{
 .hero1 .hero2 .image .img1{
     width: 100%;
 }
-
-/* sodrzina */
 
 .sodrzina  {
     text-align: center;
@@ -114,40 +108,59 @@ body{
     margin: 0px 0px;
 }
 
-/* challenge */
-
 .challenge {
     text-align: center;
-    margin-top: 60px;
+    margin-top: 100px;
 }
 
-.challenge h1 , 
-.challenge h2 {
-    margin: 10px 0px;
+
+.Process {
+    text-align: center;
+    margin-top: 100px;
 }
+
 
 p {
     text-align: center;
     max-width: 900px;
     margin: 0px auto ;
-    padding: 0px 30px;  
+    padding: 10px 30px;  
 }
 
-/* persona */
-.slika img {
+.competitiveAnalysis{
     text-align: center;
-    height: 80%;
+    margin-top: 60px;
 }
-.slika{
+
+.competitiveAnalysis .competitive {
+    margin-top: 20px;
+}
+
+.Interviews{
+    text-align: center;
+    margin-top: 60px;
+}
+
+.Persona{
+    text-align: center;
+    margin-top: 60px;
+}
+.Persona .slika img {
+    text-align: center;
+    width: 50%;
+}
+.Persona .slika{
     margin-top: 40px;
-    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
+.wireframesTitle{
+    text-align: center;
+    margin-top: 100px;
+}
 
-/* wireframes */
 .wireframes{
     position: relative;
     height: 100vh;
@@ -207,7 +220,12 @@ p {
 }
 
 
-/* ui */
+.uiTitle{
+    text-align: center;
+    margin-top: 100px;
+}
+
+
 .ui{
     position: relative;
     height: 100vh;
@@ -230,6 +248,7 @@ p {
 .ui .slideshow-container .mySlidesUi img{
     
     height: 100%;
+    width: 100%;
     
 }
 
@@ -238,8 +257,12 @@ p {
     height: 80%;
 }
 
+.Conclusion{
+    text-align: center;
+    margin-top: 100px;
+}
 
-/* contacts */
+
 .contacts .naslov{
     text-align: center;
     max-width: 900px;
@@ -320,7 +343,6 @@ p {
 }
 
 
-/* footer */
 .footer{
     width: 100%;
     height: 100px;
@@ -333,8 +355,6 @@ p {
 }
 
 
-
-/* responziv */
 
 @media screen and (max-width: 1000px) {
 
@@ -390,18 +410,30 @@ p {
         width: 80%;
     }
 
+    .Persona .slika img {
+        width: 90%;
+    }
+
     .prev{
         left: 20px;
     }
     .next{
         right: 20px;
     }
+
+    
 }
 
 @media screen and (max-width: 700px){
 
     .hero1 .hero2{
         justify-content: space-evenly;
+    }
+
+    .sodrzina{
+        justify-content: center;
+        align-content: center;
+        flex-direction: column;
     }
 
     .contacts .contactContent .card{
