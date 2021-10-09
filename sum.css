@@ -72,15 +72,15 @@ body{
     flex-direction: column
 }
 
-.hero1 .hero2 .image{
-    width: 90%;
-}
-
 .hero1 .hero2 .naslov{
     text-align: center;
     font-size: 48px;
     font-weight: 700;
     padding: 20px 0px;
+}
+
+.hero1 .hero2 .image{
+    width: 90%;
 }
 
 .hero1 .hero2 .image .img1{
@@ -126,11 +126,10 @@ p {
 
 .slika img {
     text-align: center;
-    width: 80%;
+    width: 50%;
 }
 .slika{
     margin-top: 40px;
-    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -373,6 +372,10 @@ p {
 
     .hero1 .hero2{
         width: 80%;
+    }
+
+    .Persona .slika img {
+        width: 90%;
     }
 
     .prev{
