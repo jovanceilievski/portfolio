@@ -28,8 +28,11 @@ body{
     opacity: 0.95;
 }
 
-.header .logo1 .logo2{
-    max-width: 35px;
+.header .logo1 a{
+    font-family: 'Plaster', cursive;
+    color: #03071E;
+    text-decoration: none;
+    font-size: 48px;
     
 }
 

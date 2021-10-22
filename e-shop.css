@@ -1,0 +1,461 @@
+body{
+    margin: 0px;
+    font-family: 'Roboto', sans-serif ;
+}
+
+
+.header {
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    top: 0px;
+}
+
+.header .max-with {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all .3s ease;
+    padding: 30px 70px;
+}
+
+.header.sticky .max-with {
+    padding: 15px 70px;
+}
+
+.header.sticky{
+    background: #9d0208;
+    opacity: 0.95;
+}
+
+.header .logo1 a{
+    font-family: 'Plaster', cursive;
+    color: #03071E;
+    text-decoration: none;
+    font-size: 48px;
+    
+}
+
+.header .menu1 a {
+    color: black;
+    text-decoration: none;
+    margin-left: 40px;
+    font-size: 18px;
+    font-weight: 700;
+} 
+.header .menu1 a:hover{
+    color: #9D0208;
+    transition: all .3s ease;
+}
+.header.sticky a:hover{
+    color: white;
+}
+
+.header .max-with .hamburger {
+    color: black;
+    font-size: 24px;
+    cursor: pointer;
+    display: none;
+}
+.hero1{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center
+    
+}
+
+.hero1 .hero2{
+    height: 100%;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column
+}
+
+.hero1 .hero2 .naslov{
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    padding: 20px 0px;
+}
+
+.hero1 .hero2 .image{
+    width: 90%;
+}
+.hero1 .hero2 .image .img1{
+    width: 100%;
+}
+
+.sodrzina  {
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+.sodrzina .text {
+    margin: 20px;
+}
+
+
+.sodrzina .text .team {
+    padding: 0px 20px;
+}
+.sodrzina .text .team label{
+    padding: 0px 20px;
+}
+
+.sodrzina h3{
+    margin: 0px 0px;
+}
+
+.sodrzina h3{
+    margin: 0px 0px;
+}
+
+.challenge {
+    text-align: center;
+    margin-top: 100px;
+}
+
+
+.Process {
+    text-align: center;
+    margin-top: 100px;
+}
+
+
+p {
+    text-align: center;
+    max-width: 900px;
+    margin: 0px auto ;
+    padding: 10px 30px;  
+}
+
+.competitiveAnalysis{
+    text-align: center;
+    margin-top: 60px;
+}
+
+.Persona{
+    text-align: center;
+    margin-top: 60px;
+}
+
+.Persona .slika{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.Persona .slika .slika1{
+    width: 40% ;
+    height: 80%;
+    border-radius: 5px;
+}
+
+.Persona .slika .slika1 img{
+    width: 100%;
+}
+
+.wireframesTitle{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.wireframes{
+    position: relative;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.wireframes .challenge h2{
+    margin-bottom: 20px;
+}
+
+.mySlides {
+    height: 100%;
+    display: none
+
+}
+
+.wireframes .slideshow-container .mySlides img{
+    
+    height: 100%;
+    width: 100%;
+    
+}
+
+
+.wireframes .slideshow-container {
+    height: 80%;
+}
+
+.prev{
+    left: 250px;
+}
+.next{
+    right: 250px;
+}
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    z-index: 999;
+    cursor: pointer;
+    padding: 16px;
+    font-size: 18px;
+    width: auto;
+    user-select: none;
+    transition: 0.6s ease;
+    border-radius: 5px;
+    z-index: 999;
+}  
+
+
+
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+}
+
+
+.uiTitle{
+    text-align: center;
+    margin-top: 100px;
+}
+
+
+.ui{
+    position: relative;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.ui .challenge h2{
+    margin-bottom: 20px;
+}
+
+.mySlidesUi {
+    height: 100%;
+    display: none
+
+}
+
+.ui .slideshow-container .mySlidesUi img{
+    
+    height: 100%;
+    width: 100%;
+    
+}
+
+
+.ui .slideshow-container {
+    height: 80%;
+}
+
+.Conclusion{
+    text-align: center;
+    margin-top: 100px;
+}
+
+
+.contacts .naslov{
+    text-align: center;
+    max-width: 900px;
+    margin: 0px auto ;
+    padding: 0px 30px; 
+    margin-top: 120px;
+    
+}
+.contacts .naslov p {
+    margin-bottom: 40px;
+}
+
+.contacts .contactContent {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;;
+    justify-content: space-evenly;
+}
+
+.contacts .contactContent .card{
+    width: 40%;
+    
+   
+}
+
+.contacts .contactContent .left ,
+.contacts .contactContent .right {
+    margin: 40px 0px;
+}
+
+.contacts .contactContent .left .row {
+    display: flex;
+    height: 65px;
+    align-items: center;
+}
+
+.contacts .contactContent .left .row .info{
+    margin-left: 20px;
+}
+
+.contacts .contactContent .row i {
+    font-size: 48px;
+}
+
+.contacts .contactContent .right .row {
+    margin: 10px 0px;
+    
+}
+
+.contacts .contactContent .right .row .info input{
+    width: 100%;
+    height: 45px;
+    border: 0px;
+    background-color: #F5F5F5; 
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+.contacts .contactContent .right .row .info textarea{
+
+    width: 100%;
+    height: 60px;
+    border: 0px;
+    background-color: #F5F5F5; 
+    margin: 5px 0px;
+    font-size: 14px;
+
+}
+
+.contacts .contactContent .right .row .kopche .kopche2 {
+
+    border: 0px;
+    width: 160px;
+    height: 45px;
+    background-color: #9D0208;
+    color: white;
+    border-radius: 10px;
+}
+
+
+.footer{
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    background-color: #03071E;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+@media screen and (max-width: 1000px) {
+
+    .header .max-with {
+
+        padding: 20px 40px;
+    }
+    .header.sticky .max-with{
+        padding: 10px 40px;
+    }
+
+    .header .max-with .hamburger {
+        display: block;
+        z-index: 999;
+    }
+
+    .header .max-with .hamburger i.active:before{
+        content: "\f00d";
+    }
+
+    .header .menu1{
+        position: fixed;
+        height: 100vh;
+        width: 100%;
+        left: -100%;
+        top: 0px;
+        background: #03071E;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        transition: all 0.3s ease;
+    }
+
+    .header .menu1.active{
+
+        left: 0px;
+
+    }
+
+    .header .menu1 .menu2{
+        font-size: 24px;
+        margin: 15px 0px;
+
+    }
+
+    .header .menu1 a{
+        color: white;
+    }
+
+    .hero1 .hero2{
+        width: 80%;
+    }
+
+    .Persona .slika .slika1{
+        width: 60%;
+    }
+    .Persona .slika{
+        flex-direction: column;
+    }
+
+    .prev{
+        left: 20px;
+    }
+    .next{
+        right: 20px;
+    }
+
+    
+}
+
+@media screen and (max-width: 700px){
+
+    .hero1 .hero2{
+        justify-content: space-evenly;
+    }
+
+    .sodrzina{
+        justify-content: center;
+        align-content: center;
+        flex-direction: column;
+    }
+
+    .contacts .contactContent .card{
+        width: 80%;
+    }
+    .contacts .contactContent{
+        flex-direction: column;
+        align-items: center;
+    }
+    .contacts .contactContent .right .row .kopche .kopche2{
+        width: 100%;
+    }
+
+}
