@@ -124,6 +124,34 @@ body{
 .Process {
     text-align: center;
     margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.Process .proces1{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+.Process .proces1 .proces2{
+
+    background-color: #03071E;
+    color: white;
+    width: 180px;
+    height: 45px;
+    margin: 20px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
 }
 
 

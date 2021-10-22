@@ -116,7 +116,8 @@ body{
 }
 
 .challenge h1 , 
-.challenge h2 {
+.challenge h2 ,
+.processes h1 {
     margin: 10px 0px;
 }
 
@@ -125,6 +126,41 @@ p {
     max-width: 900px;
     margin: 0px auto ;
     padding: 0px 30px;  
+}
+
+
+.processes{
+    text-align: center;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+}
+
+.processes .proces1{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+.processes .proces1 .proces2{
+
+    background-color: #03071E;
+    color: white;
+    width: 180px;
+    height: 45px;
+    margin: 20px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
 }
 
 .slika img {
