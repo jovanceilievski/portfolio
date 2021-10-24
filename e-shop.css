@@ -173,20 +173,19 @@ p {
 }
 
 .Persona .slika{
+    margin-top: 40px;
     display: flex;
-    flex-wrap: wrap;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 
-.Persona .slika .slika1{
-    width: 40% ;
-    height: 80%;
-    border-radius: 5px;
-}
+
 
 .Persona .slika .slika1 img{
-    width: 100%;
+    width: 90%;
+    padding: 10px;
+    border-radius: 10px;
+
 }
 
 .wireframesTitle{
@@ -447,7 +446,7 @@ p {
     }
 
     .Persona .slika .slika1{
-        width: 60%;
+        width: 90%;
     }
     .Persona .slika{
         flex-direction: column;
