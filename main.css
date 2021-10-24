@@ -4,6 +4,10 @@ body{
     font-family: 'Roboto', sans-serif ;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 
 .header {
     position: fixed;
