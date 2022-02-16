@@ -231,8 +231,7 @@ html {
 
 .contacts .contactContent .card{
     width: 40%;
-    
-   
+    border: 0px;
 }
 
 .contacts .contactContent .left ,
@@ -240,13 +239,19 @@ html {
     margin: 40px 0px;
 }
 
-.contacts .contactContent .left .row {
-    display: flex;
-    height: 65px;
-    align-items: center;
+.contacts .contactContent .left a {
+    color: black;
+    text-decoration: none;
 }
 
-.contacts .contactContent .left .row .info{
+
+.contacts .contactContent .left .leftrow {
+    display: flex;
+    align-items: center;
+    height: 65px;
+}
+
+.contacts .contactContent .left .leftrow .info{
     margin-left: 20px;
 }
 
